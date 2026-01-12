@@ -1,0 +1,14 @@
+<!ELEMENT joc (titol, companyia, plataforma, anyLlançament, modesJoc, personatges, regions)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT companyia (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT anyLlançament (#PCDATA)>
+<!ELEMENT modesJoc (mode)>
+<!ELEMENT mode (#PCDATA)>
+<!ELEMENT personatges (personatge)>
+<!ELEMENT personatge (nom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT regions (regio)>
+<!ELEMENT regio (nom, nota)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>

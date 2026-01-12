@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE joc SYSTEM "ex5.dtd">
+<cataleg_musica>
+    <llista_artistes>
+        <artista>
+            <nom>Wellington</nom>
+            <pais>Eldorado</pais>
+            <genere>Rock</genere>
+            
+        </artista>
+    </llista_artistes>
+    <llista_albumes>
+
+    </llista_albumes>
+    <llista_recomanacions_albumes>
+
+    </llista_recomanacions_albumes>
+</cataleg_musica>
