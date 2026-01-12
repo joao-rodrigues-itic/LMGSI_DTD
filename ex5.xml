@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE joc SYSTEM "ex5.dtd">
+<!DOCTYPE cataleg_musica SYSTEM "ex5.dtd">
 <cataleg_musica>
     <llista_artistes>
-        <artista>
+        <artista id="a1">
             <nom>Wellington</nom>
             <pais>Eldorado</pais>
             <genere>Rock</genere>
@@ -10,9 +10,15 @@
         </artista>
     </llista_artistes>
     <llista_albumes>
-
+        <album id="al1">
+            <titol>Aire</titol>
+            <any>2000</any>
+            <artistes>
+                <artista_ref ref="a1"/>
+            </artistes>
+        </album>
     </llista_albumes>
     <llista_recomanacions_albumes>
-
+        <recomanacio ref="al1"/>
     </llista_recomanacions_albumes>
 </cataleg_musica>
